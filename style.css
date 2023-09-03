@@ -1,0 +1,1069 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    padding: 7vw;
+    background-color: rgb(92, 132, 92);
+    caret-color: transparent;
+}
+
+.main {
+    padding-bottom: 7vw;
+}
+
+
+.pg-1 {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 2vw 2vw 0 0;
+    position: relative;
+}
+
+.pg-1 img {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    border-radius: 2vw;
+    filter: brightness(0.5);
+}
+
+.pg-1 .nav {
+    height: 45px;
+    width: 95%;
+    border: 1px solid #b1b1b1;
+    border-radius: 50px;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+}
+
+.nav .circle {
+    height: 100%;
+    width: 45px;
+    border: 1px solid #c4c4c4;
+    border-radius: 50px;
+}
+
+.capsule {
+    height: 100%;
+    width: 12%;
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.nav .search {
+    margin-left: auto;
+}
+
+.frmt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.home {
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+
+.nav .logo img {
+    height: 40px;
+    width: 40px;
+}
+
+.nav .search img {
+    height: 30px;
+    width: 30px;
+}
+
+.pg-1-content {
+    height: 40%;
+    width: 80%;
+    /* background-color: red; */
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+}
+
+.pg-1-content h2 {
+    font-size: 2vw;
+    margin-left: 20px;
+}
+
+.pg-1-content h1 {
+    font-size: 18vw;
+    line-height: 15vw;
+    font-family: 'Hammersmith One';
+    letter-spacing: 5px;
+}
+
+.pg-1-para {
+    width: 80%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 57%;
+    transform: translateX(-50%);
+}
+
+.pg-1-para p {
+    font-size: 1vw;
+    color: #fff;
+    opacity: .6;
+    font-weight: 400;
+}
+
+.pg-1-plants {
+    height: 20%;
+    width: 100%;
+    position: absolute;
+    bottom: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    padding: 0 2vw;
+}
+
+.pg-1-plants .plants-content {
+    height: 100%;
+    width: 20%;
+    color: #fff;
+    padding: 1.5vw;
+}
+
+.pg1-shadow {
+    border: 1px solid grey;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(20px);
+}
+
+.pg-1-plants .pg-1-right {
+    height: 100%;
+    width: 30%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+.pg-1-right .bottomArrow {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pg-1-right .shop-btn {
+    height: 30%;
+    width: 70%;
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    color: #000;
+    font-weight: 600;
+    font-size: 1.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+
+}
+
+.bottomArrow img {
+    height: 40px;
+    width: 40px;
+    filter: brightness(.8);
+}
+
+.plants-content h1 {
+    font-size: 2vw;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.plants-content p {
+    font-size: .9vw;
+}
+
+.pg-1-plants .plantsImg {
+    height: 100%;
+    width: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.plantsImg span {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-top: -10px;
+}
+
+.plantsImg img {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    border: 1px solid white;
+}
+
+
+.pg-2 {
+    height: 100vh;
+    width: 100%;
+    background-color: #e8e8e8;
+}
+
+.pg-2-content {
+    height: 25%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pg-2-content .content-heading {
+    height: 100%;
+    width: 27%;
+    padding: 1.5vw 0 0 3vw;
+}
+
+.content-heading h1 {
+    font-size: 2vw;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.content-heading p {
+    font-size: .9vw;
+    font-weight: 700;
+    color: rgb(102, 102, 102);
+}
+
+.pg-2-content .content-img {
+    height: 80%;
+    width: 20%;
+    background-color: blue;
+    border-radius: 1.5vw;
+}
+
+.content-img {
+    background-image: url(https://images.unsplash.com/photo-1464263866732-138a1da44860?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80);
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    filter: grayscale(1);
+}
+
+.content-img .playBtn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-img img {
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.pg-2-content .content-summary {
+    height: 100%;
+    width: 38%;
+    padding: 2vw 1vw 1vw 0;
+}
+
+.content-summary h3 {
+    font-size: 1.5vw;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.content-summary span {
+    height: 2.5vw;
+    width: 7vw;
+    display: inline-block;
+    vertical-align: bottom;
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    color: #fff;
+    background-image: url(https://images.unsplash.com/photo-1564672560896-5c3377bb41b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+.pg-2-buttons {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    padding: 0 2vw;
+}
+
+.pg-2-buttons span {
+    height: 40%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid black;
+    font-size: 1.1vw;
+    font-weight: 700;
+}
+
+.pg-2-buttons span:first-child {
+    background-color: black;
+    color: #fff;
+    font-weight: 500;
+}
+
+.pg-2-buttons span:last-child {
+    width: 12%;
+    margin-left: auto;
+}
+
+.pg-2-cards {
+    height: 55%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.pg-2-cards .card1 {
+    height: 100%;
+    width: 45%;
+    background-image: url(https://w0.peakpx.com/wallpaper/490/753/HD-wallpaper-closeup-view-of-green-plant-leaves-green-aesthetic.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    position: relative;
+}
+
+.background-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5vw;
+    color: #fff;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.5vw;
+}
+
+.box h1 {
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+
+.box span {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.box span img {
+    height: 20px;
+    width: 20px;
+}
+
+.box~p {
+    width: 80%;
+    margin-top: 2vw;
+    font-size: .9vw;
+    opacity: .8;
+}
+
+.bottom-box {
+    height: 20%;
+    width: 100%;
+    border-top: 1px solid grey;
+    margin-top: auto;
+}
+
+.bottom-box .capsule-btn {
+    height: 70%;
+    width: 30%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-top: 1.5vw;
+    cursor: pointer;
+}
+
+.capsule-btn h6 {
+    margin-right: 1vw;
+    font-size: .8vw;
+    font-weight: 600;
+}
+
+.leaf-img {
+    height: 36px;
+    width: 36px;
+    border-radius: 50px;
+    border: none;
+    margin-right: auto;
+}
+
+.leaf-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.pg-2-cards .card2 {
+    height: 100%;
+    width: 23%;
+    background-image: url(https://images.unsplash.com/photo-1550147760-44c9966d6bc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bGVhZnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    position: relative;
+}
+
+.card2 .background-overlay {
+    background-color: rgba(0, 0, 0, .7);
+    backdrop-filter: blur(1px);
+}
+
+.card2 .box~p {
+    width: 100%;
+}
+
+.bottom-box .capsule-btn2 {
+    height: 70%;
+    width: 55%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-top: 1.5vw;
+    cursor: pointer;
+}
+
+.capsule-btn2 h6 {
+    margin-right: 1vw;
+    font-size: .8vw;
+    font-weight: 600;
+}
+
+.pg-2-cards .card3 {
+    height: 100%;
+    width: 23%;
+    background-image: url(https://images.unsplash.com/photo-1473081556163-2a17de81fc97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    position: relative;
+}
+
+.card3 .background-overlay {
+    backdrop-filter: blur(1px);
+}
+
+.card3 .box~p {
+    width: 100%;
+}
+
+.pg-3 {
+    height: 100vh;
+    width: 100%;
+    background-color: #e8e8e8;
+}
+
+.pg-3-content {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw;
+}
+
+.pg-3-content .head {
+    width: 40%;
+    font-size: 5vw;
+    font-weight: 800;
+}
+
+.pg-3-content .para {
+    width: 50%;
+    font-size: 1.2vw;
+    font-weight: 500;
+    font-family: 'Hammersmith One';
+}
+
+.pg-3-cards {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pg-3-cards .card {
+    height: 100%;
+    width: 28%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 8px;
+    color: #000;
+    position: relative;
+}
+
+.card .img {
+    height: 70%;
+    width: 100%;
+    border-radius: 12px;
+    padding: .5vw;
+    background-position: center;
+    background-size: cover;
+}
+
+.card:nth-child(1) .img {
+    background-image: url(https://img.freepik.com/premium-photo/close-up-green-tea-leaves-tea-plantation_38535-316.jpg?w=360);
+}
+
+.card:nth-child(2) .img {
+    background-image: url(https://img.freepik.com/free-photo/close-up-green-leaves-nature_23-2149006019.jpg);
+}
+
+.card:nth-child(3) .img {
+    background-image: url(https://img.freepik.com/premium-photo/close-up-plant-with-green-leaves-dirt_107062-1636.jpg);
+}
+
+.img .heart {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heart img {
+    height: 20px;
+    width: 20px;
+}
+
+.card h1 {
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin-top: .8vw;
+}
+
+.card p {
+    font-size: 1vw;
+    font-weight: 500;
+    opacity: .5;
+    margin-bottom: .8vw;
+}
+
+.card h5 {
+    font-size: 1.1vw;
+    font-weight: 700;
+}
+
+.card .btn {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5%;
+    right: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn img {
+    height: 20px;
+    width: 20px;
+}
+
+/* .pg-3 .slider {
+    margin-top: 2vw;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.slider .dot {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.slider .slide {
+    height: 7px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50px;
+} */
+
+.pg-3-bottom {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw;
+    margin-top: 2vw;
+}
+
+.pg-3-bottom .head {
+    width: 60%;
+    font-size: 5vw;
+    font-weight: 800;
+}
+
+.pg-3-bottom .para {
+    width: 30%;
+    font-size: 1.2vw;
+    font-weight: 500;
+    font-family: 'Hammersmith One';
+}
+
+.pg-4 {
+    height: 100vh;
+    width: 100%;
+    background-color: #e8e8e8;
+}
+
+
+.pg-4 .plants-info {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 2vw;
+}
+
+.plants-info>div {
+    height: 48%;
+}
+
+.plants-info .plant1 {
+    width: 50%;
+    border-radius: 15px;
+    background-image: url(https://images.unsplash.com/photo-1551970634-747846a548cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.plants-info .plant2 {
+    width: 40%;
+    border-radius: 15px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/20/20/37/sycamore-1469825_640.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.plants-info .plant3 {
+    width: 40%;
+    border-radius: 15px;
+    background-image: url(https://www.ontarioparks.com/parksblog/wp-content/uploads/2016/05/T-38-C-underside-Justin-Peter-16JUN09_1-825x507.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.plants-info .plant4 {
+    width: 50%;
+    border-radius: 15px;
+    background-image: url(https://www.wallpaperflare.com/static/272/694/344/nature-green-leaves-shadow-wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.black-shadow {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    padding: 1vw;
+}
+
+.black-shadow .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+.black-shadow .title {
+    height: 55%;
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 1vw;
+}
+
+.transparent .box span {
+    background-color: transparent;
+    border: 1px solid grey;
+}
+
+
+.title h1 {
+    font-size: 2.5vw;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.title p {
+    width: 95%;
+    font-size: 12px;
+}
+
+.black-shadow>.head {
+    height: 30%;
+    width: 100%;
+    color: #fff;
+    padding-left: 1vw;
+}
+
+.pg-5 {
+    height: 100vh;
+    width: 100%;
+    background-color: #e8e8e8;
+}
+
+.pg-5-heading {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pg-5-heading h1 {
+    padding: 0vw 4vw;
+    font-size: 5vw;
+    text-align: center;
+    line-height: 1;
+    margin-top: 3vw;
+}
+
+.pg-5-heading p {
+    padding: 0vw 10vw;
+    text-align: center;
+    font-size: 1vw;
+    font-family: "Hammersmith One";
+    margin-top: 1.5vw;
+}
+
+.pg-5-container {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.pg-5-container .playBtn {
+    height: 82px;
+    width: 82px;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pg-5-container .playBtn img {
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.pg-5-container .box1 {
+    height: 75%;
+    width: 20%;
+    border-radius: 30px;
+    background-image: url(./img/left-img.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-color: red;
+}
+
+.box1:last-child {
+    background-image: url(./img/right-img.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.pg-6 {
+    height: 100vh;
+    width: 100%;
+    background-color: #e8e8e8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 0 2vw;
+}
+
+.pg-6-box1 {
+    height: 18%;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5vw;
+}
+
+.pg-6-box1 h1 {
+    font-size: 2.2vw;
+    font-weight: 700;
+}
+
+.pg-6-box2 {
+    height: 28%;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 1.5vw;
+}
+
+.pg-6-box2 h1 {
+    font-size: 2.2vw;
+    font-weight: 700;
+}
+
+.pg-6-box2 .box2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pg-6-box2 p {
+    width: 97%;
+    margin-top: 1.5vw;
+    font-family: "Hammersmith One";
+    line-height: 1.5;
+    font-size: 1.1vw;
+}
+
+.round-btn {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid rgb(35, 35, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.round-btn img {
+    height: 15px;
+    width: 15px;
+}
+
+.pg-7 {
+    height: 100vh;
+    width: 100%;
+    background-color: #e8e8e8;
+    border-radius: 0 0 2vw 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 5px;
+}
+
+.pg-7 .background-img {
+    height: 90%;
+    width: 100%;
+    background-color: red;
+    border-radius: 1.5vw;
+    background-image: url(https://images.unsplash.com/photo-1687810829027-4ccf6fdaa59e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.background-img .black-shadow {
+    border-radius: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    color: #fff;
+}
+
+.black-shadow .logo {
+    margin-top: 2.7vw;
+    width: 80%;
+    border-bottom: 1px solid grey;
+}
+
+.logo .leaf-img {
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 55px;
+}
+
+.logo .leaf-img img{
+    height: 40px;
+    width: 40px;
+}
+
+.black-shadow h1{
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+.black-shadow p{
+    width: 35%;
+    text-align: center;
+    font-size: 1vw;
+    line-height: 2;
+    opacity: .6;
+}
+
+.footer {
+    height: 40%;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 1.5vw;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-nav{
+    height: 50%;
+    width: 90%;
+    border-bottom: 1px solid grey;
+    margin-bottom: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw 4vw;
+}
+
+.footer-nav .nav{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-bottom: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-nav .nav span{
+    height: 100%;
+    width: 18%;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+
+.footer-nav .nav span:nth-child(4) {
+    background-color: black;
+    color: #fff;
+    font-weight: 500;
+}
